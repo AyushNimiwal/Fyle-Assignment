@@ -1,9 +1,19 @@
 Tooltips
-![Screenshot 2024-04-13 171100](https://github.com/AyushNimiwal/Fyle-Assignment/assets/112817422/2213ca02-afa8-4111-a9d6-8217ee26a4c9)
-![Screenshot 2024-04-13 171116](https://github.com/AyushNimiwal/Fyle-Assignment/assets/112817422/c0c399a8-f5e6-4671-a1f5-a66518b08713)
+
+![Screenshot 2024-04-13 171100](https://github.com/AyushNimiwal/Fyle-Assignment/assets/112817422/e386ee2f-a510-49a6-ad1e-9c767e3d4538)
+
+
+![Screenshot 2024-04-13 171116](https://github.com/AyushNimiwal/Fyle-Assignment/assets/112817422/fefb430e-6e95-498b-9f48-2f40cee69af3)
+
 When income is less than 8lakhs
-![Screenshot 2024-04-13 171255](https://github.com/AyushNimiwal/Fyle-Assignment/assets/112817422/7c1b89ad-278a-46ae-a671-b5a213845b6e)
-![Screenshot 2024-04-13 171307](https://github.com/AyushNimiwal/Fyle-Assignment/assets/112817422/0e942452-80b2-40b8-a1be-87b6d107360e)
+
+![Screenshot 2024-04-13 171255](https://github.com/AyushNimiwal/Fyle-Assignment/assets/112817422/8667ba72-6111-4eb1-ae65-41459f8aea59)
+
+
+![Screenshot 2024-04-13 171307](https://github.com/AyushNimiwal/Fyle-Assignment/assets/112817422/7b5c77d1-65dc-499e-82d9-0c87367c6725)
+
 When income is greater than 8lakhs
-![Screenshot 2024-04-13 172329](https://github.com/AyushNimiwal/Fyle-Assignment/assets/112817422/2e7b8ab9-cb34-4408-a1b1-9d955333c18c)
-![Screenshot 2024-04-13 172337](https://github.com/AyushNimiwal/Fyle-Assignment/assets/112817422/91add9d8-d724-4227-8ecb-4b3a14ed970e)
+
+![Screenshot 2024-04-13 172329](https://github.com/AyushNimiwal/Fyle-Assignment/assets/112817422/66cce59f-983e-4990-a39c-ad7ddf8eaae8)
+
+![Screenshot 2024-04-13 172337](https://github.com/AyushNimiwal/Fyle-Assignment/assets/112817422/a6a8da01-dc04-48a4-a3ee-07ee8d351f33)
