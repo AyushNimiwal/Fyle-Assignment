@@ -134,16 +134,15 @@
                 d2.classList.add('d-none');
             }
             const overallincome= Number(anualincome)+Number(extraincome)-Number(deduction);
-            console.log(overallincome,anualincome,extraincome,age,deduction,typeof(overallincome),typeof(anualincome),typeof(extraincome),typeof(age),typeof(deduction));
             let tax=0;
             if(overallincome>800000){
-                if(age=='below 40'){
+                if(age=='0-40'){
                     tax=(overallincome-800000)*0.3;
                 }
                 else if(age=='40-60'){
                     tax=(overallincome-800000)*0.4;
                 }
-                else if(age=='60 or above'){
+                else if(age=='60'){
                     tax=(overallincome-800000)*0.1;
                 }
             }
