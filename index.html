@@ -67,6 +67,20 @@
         tooltips.forEach((tooltip)=>{
             new bootstrap.Tooltip(tooltip);
         });
+        const showtt=(id1,id2)=>{
+            const d1=document.getElementById(id1);
+            const d2=document.getElementById(id2);
+            d1.classList.add('border-end-0');
+            d1.classList.add('rounded-end-0');
+            d2.classList.remove('d-none');
+        }
+        const hidett=(id1,id2)=>{
+            const d1=document.getElementById(id1);
+            const d2=document.getElementById(id2);
+            d1.classList.remove('border-end-0');
+            d1.classList.remove('rounded-end-0');
+            d2.classList.add('d-none');
+        }
         document.querySelector('form').addEventListener('submit',(e)=>{
             e.preventDefault();
             const anualincome=document.querySelector('#anualincome').value;
@@ -74,64 +88,32 @@
             const age=document.querySelector('#age').value;
             const deduction=document.querySelector('#deduction').value;
             if(anualincome==0||isNaN(anualincome)||anualincome<0){
-                const d1=document.getElementById('anualincome');
-                const d2=document.getElementById('anualtt');
-                d1.classList.add('border-end-0');
-                d1.classList.add('rounded-end-0');
-                d2.classList.remove('d-none');
+                showtt('anualincome','anualtt');
                 return;
             }
             if(anualincome>0){
-                const d1=document.getElementById('anualincome');
-                const d2=document.getElementById('anualtt');
-                d1.classList.remove('border-end-0');
-                d1.classList.remove('rounded-end-0');
-                d2.classList.add('d-none');
+                hidett('anualincome','anualtt');
             }
             if(extraincome==0||isNaN(extraincome)||extraincome<0){
-                const d1=document.getElementById('extraincome');
-                const d2=document.getElementById('extratt');
-                d1.classList.add('border-end-0');
-                d1.classList.add('rounded-end-0');
-                d2.classList.remove('d-none');
+                showtt('extraincome','extratt');
                 return;
             }
             if(extraincome>0){
-                const d1=document.getElementById('extraincome');
-                const d2=document.getElementById('extratt');
-                d1.classList.remove('border-end-0');
-                d1.classList.remove('rounded-end-0');
-                d2.classList.add('d-none');
+                hidett('extraincome','extratt');
             }
             if(age==''){
-                const d1=document.getElementById('age');
-                const d2=document.getElementById('agett');
-                d1.classList.add('border-end-0');
-                d1.classList.add('rounded-end-0');
-                d2.classList.remove('d-none');
+                showtt('age','agett');
                 return;
             }
             if(age!=''){
-                const d1=document.getElementById('age');
-                const d2=document.getElementById('agett');
-                d1.classList.remove('border-end-0');
-                d1.classList.remove('rounded-end-0');
-                d2.classList.add('d-none');
+                hidett('age','agett');
             }
             if(isNaN(deduction)||deduction<0){
-                const d1=document.getElementById('deduction');
-                const d2=document.getElementById('deductiontt');
-                d1.classList.add('border-end-0');
-                d1.classList.add('rounded-end-0');
-                d2.classList.remove('d-none');
+                showtt('deduction','deductiontt');
                 return;
             }
             if(deduction>0){
-                const d1=document.getElementById('deduction');
-                const d2=document.getElementById('deductiontt');
-                d1.classList.remove('border-end-0');
-                d1.classList.remove('rounded-end-0');
-                d2.classList.add('d-none');
+                hidett('deduction','deductiontt');
             }
             const overallincome= Number(anualincome)+Number(extraincome)-Number(deduction);
             let tax=0;
